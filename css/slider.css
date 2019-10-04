@@ -1,0 +1,289 @@
+body {background: #000;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;}
+
+/* SLIDER */
+
+.slider {width: 400px;
+         height: 200px;
+         position: relative;
+         margin: auto;
+         list-style: none;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         align-items: flex-end;
+
+         box-shadow: 0 0 0 1px white,
+         0 0 0 0px,
+         0 1px 0px}
+
+.slider{float: left;}
+
+.slider img {position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             opacity: 0;
+             transition: all 0.7s;
+             float: left;}
+
+.slider input[type="radio"] {display: none;}
+
+.slider input[type="radio"]:checked ~ img {opacity: 1;}
+
+
+.slider input[type="radio"] + label {position: relative;
+                                     z-index: 50;
+                                     margin: 10px;
+                                     display: block;
+                                     width: 15px;
+                                     height: 15px;
+                                     background: #fff;
+                                     border-radius: 50%;
+                                     border: 2px solid white;
+                                     cursor: pointer;}
+
+.slider input[type="radio"]:checked + label {background: #000;
+                                             border: 1px solid white;}
+
+/* SLIDERMOVE1 */
+
+.slidermove {position: relative;
+             margin-top: -140px;
+             margin-left: 50px;
+             margin-right: 50px;
+             display: table-caption;}
+
+/* SLIDER.POSICIÓN1 */
+
+.position h3 {position: relative;
+              margin-right: 788px;
+              float: right;
+              text-decoration: overline;}
+              
+.position p {position: relative;
+             margin-left: 500px;
+             margin-right: 100px;
+             float: right;}
+
+
+/* SLIDER 2 */
+
+.slider2 {width: 400px;
+         height: 200px;
+         position: relative;
+         margin: auto;
+         list-style: none;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         align-items: flex-end;
+
+         box-shadow: 0 0 0 1px white,
+         0 0 0 0px,
+         0 1px 0px}
+
+.slider2 {float: left;}
+
+.slider2 img {position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             opacity: 0;
+             transition: all 0.7s;
+             float: left;}
+
+.slider2 input[type="radio"] {display: none;}
+
+.slider2 input[type="radio"]:checked ~ img {opacity: 1;}
+
+
+.slider2 input[type="radio"] + label {position: relative;
+                                      z-index: 50;
+                                      margin: 10px;
+                                      display: block;
+                                      width: 15px;
+                                      height: 15px;
+                                      background: #fff;
+                                      border-radius: 100%;
+                                      border: 2px solid white;
+                                      cursor: pointer;}
+
+.slider2 input[type="radio"]:checked + label {background: #000;
+                                             border: 1px solid white;}
+
+
+/* SLIDERMOVE2 */
+
+.slidermove2 {position: static;
+             margin-top: -230px;
+             margin-left: 0px;
+             margin-right: 50px;
+             margin-bottom: 150px;
+             display: table-caption;}
+
+
+/* SLIDER.POSICIÓN2 */
+
+.position2 h3 {position: relative;
+              margin-top: 100px;
+              margin-left: 420px;
+              margin-top:  100px;
+              float: left;
+              text-decoration: overline;}
+              
+.position2 p {position: relative;
+             margin-left: 450px;
+             margin-right: -800px;
+             margin-top: 20px;
+             margin-bottom: 100px;
+             float: right;}
+
+
+
+/* SLIDER 3 */
+
+
+.slider3 {width: 400px;
+         height: 200px;
+         position: relative;
+         margin: auto;
+         list-style: none;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         align-items: flex-end;
+
+         box-shadow: 0 0 0 1px white,
+         0 0 0 0px,
+         0 1px 0px}
+
+.slider3 {float: left;}
+
+.slider3 img {position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             opacity: 0;
+             transition: all 0.7s;
+             float: left;}
+
+.slider3 input[type="radio"] {display: none;}
+
+.slider3 input[type="radio"]:checked ~ img {opacity: 1;}
+
+
+.slider3 input[type="radio"] + label {position: relative;
+                                      z-index: 50;
+                                      margin: 10px;
+                                      display: block;
+                                      width: 15px;
+                                      height: 15px;
+                                      background: #fff;
+                                      border-radius: 100%;
+                                      border: 2px solid white;
+                                      cursor: pointer;}
+
+.slider3 input[type="radio"]:checked + label {background: #000;
+                                             border: 1px solid white;}
+
+/* SLIDERMOVE3 */
+
+.slidermove3 {position: relative;
+             margin-top: -130px;
+             margin-bottom: 40px;
+             margin-left: 50px;
+             margin-right: 50px;
+             display: table-caption;}
+
+/* SLIDER.POSICIÓN3 */
+
+
+.position3 h3 {position: relative;
+              margin-top: -60px;
+              margin-left: 475px;
+              margin-bottom: -50px;
+              float: left;
+              text-decoration: overline;}
+              
+.position3 p {position: relative;
+             margin-left: 500px;
+             margin-right: 100px;
+             margin-top: 10px;
+             float: right;}
+
+/* SLIDER 4 */
+
+.slider4 {width: 400px;
+         height: 200px;
+         position: relative;
+         margin: auto;
+         list-style: none;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         align-items: flex-end;
+
+         box-shadow: 0 0 0 1px white,
+         0 0 0 0px,
+         0 1px 0px}
+
+.slider4 {float: left;}
+
+.slider4 img {position: absolute;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             opacity: 0;
+             transition: all 0.7s;
+             float: left;}
+
+.slider4 input[type="radio"] {display: none;}
+
+.slider4 input[type="radio"]:checked ~ img {opacity: 1;}
+
+
+.slider4 input[type="radio"] + label {position: relative;
+                                     z-index: 50;
+                                     margin: 10px;
+                                     display: block;
+                                     width: 15px;
+                                     height: 15px;
+                                     background: #fff;
+                                     border-radius: 50%;
+                                     border: 2px solid white;
+                                     cursor: pointer;}
+
+.slider4 input[type="radio"]:checked + label {background: #000;
+                                             border: 1px solid white;}
+
+/* SLIDERMOVE4 */
+
+.slidermove4 {position: relative;
+             margin-top: -500px;
+             margin-bottom: -30px;
+             margin-left: 50px;
+             margin-right: 50px;
+             display: table-caption;}
+
+/* POSICIÓN.SLIDER4 */
+
+.position4 h3 {position: relative;
+              margin-right: 810px;
+              margin-left: 300px;
+              margin-bottom: -400px;
+              margin-top: 35px;
+              float: right;
+              text-decoration: overline;}
+              
+.position4 p {position: relative;
+             margin-left: 500px;
+             margin-right: 300px;
+             margin-top: 110px;
+             float: right;}
